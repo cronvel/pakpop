@@ -1,0 +1,56 @@
+{
+  "name": "pakpop",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "description": "Package and author popularity.",
+  "main": "lib/pakpop.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "pakpop": "./bin/pakpop"
+  },
+  "dependencies": {
+    "logfella": "^0.3.58",
+    "minimist": "^1.2.0",
+    "npm-registry": "^0.1.13",
+    "seventh": "^0.6.5",
+    "terminal-kit": "^1.15.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/pakpop.git"
+  },
+  "keywords": [
+    "package",
+    "author",
+    "popularity",
+    "download",
+    "dependants"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/pakpop/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Pak-Pop",
+    "years": [
+      2018
+    ],
+    "owner": "Cédric Ronvel"
+  }
+}
