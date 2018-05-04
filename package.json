@@ -16,7 +16,8 @@
     "logfella": "^0.3.58",
     "minimist": "^1.2.0",
     "npm-registry": "^0.1.13",
-    "seventh": "^0.6.5",
+    "rquest": "0.0.2",
+    "seventh": "^0.7.3",
     "terminal-kit": "^1.15.1"
   },
   "devDependencies": {},
