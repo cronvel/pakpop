@@ -1,6 +1,6 @@
 {
   "name": "pakpop",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "engines": {
     "node": ">=6.0.0"
   },
@@ -13,12 +13,12 @@
     "pakpop": "./bin/pakpop"
   },
   "dependencies": {
-    "logfella": "^0.3.58",
+    "logfella": "^1.0.4",
     "minimist": "^1.2.0",
     "npm-registry": "^0.1.13",
     "rquest": "^0.1.0",
-    "seventh": "^0.7.3",
-    "terminal-kit": "^1.17.2"
+    "seventh": "^0.7.9",
+    "terminal-kit": "^1.17.11"
   },
   "devDependencies": {},
   "scripts": {
